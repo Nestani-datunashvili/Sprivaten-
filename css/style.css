@@ -8,11 +8,16 @@
 
 /* header */
 
+header {
+  display: flex;
+  padding: 36px 198px 36px 207px;
+  justify-content: space-between;
+}
+
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 36px 198px 36px 207px;
+  gap: 20px;
 }
 
 .logo {
@@ -26,6 +31,15 @@ nav {
 .navigation {
   display: flex;
   gap: 21px;
+}
+
+.navigation__icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.burger {
+  display: none;
 }
 
 .navigation__item {
@@ -126,7 +140,7 @@ option {
   padding: 80px 195px;
 }
 
-.section--title {
+.content {
   text-align: center;
   margin-top: 10px;
 }
@@ -168,7 +182,9 @@ option {
   color: var(--primary);
   margin-bottom: 10px;
 }
-
+br {
+  display: none;
+}
 /* third section  */
 
 .third__section {
@@ -453,8 +469,8 @@ footer {
 }
 
 .footer-third {
-  height: 74px;
-  padding: 25px 0 25px 195px;
+  height: fit-content;
+  padding: 25px 0px;
   background-color: var(--footer-secondary-bg);
 }
 

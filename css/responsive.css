@@ -1,0 +1,263 @@
+@media only screen and (max-width: 414px) {
+  body,
+  .first__sections {
+    width: 414px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .first__sections {
+    height: fit-content;
+  }
+
+  header {
+    width: 412px;
+    background-color: var(--bt-cl);
+    padding: 23px 37px;
+    position: relative;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    right: 12px;
+  }
+
+  .burger:hover + .navigation {
+    display: flex;
+    opacity: 1;
+  }
+
+  .navigation {
+    display: none;
+    flex-direction: column;
+    top: 70px;
+    left: 0;
+    position: absolute;
+    background-color: var(--bt-cl);
+    width: 414px;
+    text-align: center;
+    padding: 83px 0;
+    opacity: 0;
+  }
+
+  .navigation__item {
+    color: var(--responsive-primary);
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  /* first section */
+
+  .first__sections--content {
+    flex-direction: column;
+    padding: 84px 34px;
+    gap: 80px;
+    height: 1270px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+  }
+  span {
+    display: inline;
+  }
+  .left_content p {
+    text-align: center;
+    color: var(--responsive-primary);
+  }
+
+  .secondary-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .secondary-button {
+    width: 182px;
+  }
+
+  .secondary-button--permanent {
+    width: 154px;
+  }
+
+  /* second section */
+  .second__section {
+    padding: 98px 42.5px;
+    height: fit-content;
+  }
+
+  .content {
+    color: var(--responsive-primary);
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .second__section--cards {
+    flex-wrap: wrap;
+  }
+  br {
+    display: block;
+  }
+
+  /* third section */
+
+  .third__section {
+    height: fit-content;
+    padding: 50px;
+  }
+
+  .third__section::before {
+    width: 414px;
+    left: 0;
+  }
+
+  .section--title {
+    margin-top: 10px;
+    color: var(--responsive-primary);
+    text-align: center;
+  }
+  .third__section--video {
+    margin-top: 60px;
+    width: 306px;
+    height: 442px;
+  }
+
+  .office {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* forth section */
+  .forth__section {
+    height: fit-content;
+    padding: 75px 42px;
+  }
+
+  .forth__section--cards {
+    flex-wrap: wrap;
+  }
+
+  .section--title {
+    width: 262px;
+    margin: 0 auto;
+  }
+
+  /* fifth section */
+  .fifth__section {
+    height: fit-content;
+    padding-bottom: 124px;
+    height: fit-content;
+  }
+  .fifth__section--cards {
+    flex-wrap: wrap;
+  }
+
+  /* sixth section  */
+
+  .sixth__section {
+    background-position: center;
+  }
+  .sixth__section {
+    padding: 75px 61px;
+  }
+
+  .input-container {
+    margin: 0;
+  }
+
+  .sixth__section-input {
+    margin: 10px 0px;
+  }
+
+  .textarea {
+    margin-top: 10px;
+    width: 286px;
+  }
+
+  .input-btn {
+    width: 286px;
+  }
+
+  /* seventh section */
+
+  .seventh__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 414px;
+    height: fit-content;
+    /* padding: 40px 37px; */
+  }
+
+  .seventh__section--content h3 {
+    width: 250px;
+    text-align: start;
+    font-size: 24px;
+  }
+  .seventh__section--content p {
+    color: var(--responsive-primary);
+    width: 184px;
+    font-size: 14px;
+  }
+
+  .seventh__section button {
+    margin-top: 50px;
+    width: 283px;
+  }
+
+  /* footer */
+
+  footer {
+    height: fit-content;
+  }
+  .footer_first {
+    padding: 53px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer_first::before {
+    display: none;
+  }
+
+  .footer_first h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: start;
+  }
+
+  .footer_second {
+    flex-direction: column;
+    height: fit-content;
+    padding: 70px 46px;
+    gap: 30px;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .footer-third {
+    width: 414px;
+    height: fit-content;
+    padding: 25px 0.5px;
+  }
+
+  .footer-third p {
+    width: 221px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

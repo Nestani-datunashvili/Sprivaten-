@@ -13,6 +13,7 @@
   --bt-cl: #ffffff;
   --secondary-bt-bg: #00a0c1;
   --footer-secondary-bg: #16697a;
+  --responsive-primary: #737373;
 }
 
 body {
@@ -104,6 +105,7 @@ p {
   color: var(--primary);
   font-weight: 500;
   line-height: 24px;
+  text-align: center;
 }
 
 span {
