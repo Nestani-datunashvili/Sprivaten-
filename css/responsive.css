@@ -61,6 +61,15 @@
     gap: 80px;
     height: 1270px;
   }
+
+  .right_content form {
+    min-width: 328px;
+  }
+
+  .input-btn {
+    width: 245px;
+  }
+
   h1 {
     font-size: 40px;
     line-height: 57px;
@@ -69,6 +78,7 @@
   span {
     display: inline;
   }
+
   .left_content p {
     text-align: center;
     color: var(--responsive-primary);
@@ -105,6 +115,7 @@
   .second__section--cards {
     flex-wrap: wrap;
   }
+
   br {
     display: block;
   }
@@ -182,9 +193,10 @@
   .textarea {
     margin-top: 10px;
     width: 286px;
+    margin-bottom: 40px;
   }
 
-  .input-btn {
+  .book {
     width: 286px;
   }
 
@@ -206,6 +218,7 @@
     font-size: 24px;
   }
   .seventh__section--content p {
+    text-align: start;
     color: var(--responsive-primary);
     width: 184px;
     font-size: 14px;
@@ -221,6 +234,7 @@
   footer {
     height: fit-content;
   }
+
   .footer_first {
     padding: 53px 48px;
     display: flex;

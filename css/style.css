@@ -64,7 +64,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 181px;
-  height: 719px;
+  min-height: 719px;
   padding: 50px 195px;
 }
 
@@ -140,6 +140,10 @@ option {
   padding: 80px 195px;
 }
 
+.section--title {
+  margin: 0 auto;
+}
+
 .content {
   text-align: center;
   margin-top: 10px;
@@ -200,8 +204,12 @@ br {
   height: 407px;
   background-color: #16697a;
   position: absolute;
-  /* top: 0; */
   bottom: 0px;
+}
+
+.section--title {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .third__section--video {
@@ -362,6 +370,10 @@ br {
   margin: 10px 0 40px 0;
 }
 
+.book {
+  width: 218px;
+}
+
 /* seventh section */
 
 .seventh__section {
@@ -373,6 +385,11 @@ br {
 
 .seventh__section--content h3 {
   margin-bottom: 10px;
+  text-align: start;
+}
+
+.seventh-text {
+  text-align: start;
 }
 
 .seventh__section button {
